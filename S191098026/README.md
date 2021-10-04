@@ -1,13 +1,24 @@
-1. SteganographyEncoder 是一个自己定义的类加载器，主要功能是根
-
-据url获取图片，通过SteganographyEncoder类解析图片，得到类的字节
-
-码，通过字节码生成一个类的对象
+1. SteganographyEncoder 是一个自己定义的类加载器，主要功能是
+    完成自定义的一个加载类的过程，在findClass方法中，可以看到类字节码的加载不是通过.class文件，而是根据url获取图片，在经过SteganographyEncoder.decodeByteArray()将隐图片进行解码最终得到的byte[]，得到类的字节码，通过字节码生成一个类的对象。这也解释了task4的通过别的同学的图片设置sorter的过程，这个过程是无需源码，源码就包含在图片中
 
 
-2. 将自己在`W02`中实现的两个排序算法（冒泡排序除外）分别编码进自选图片得到隐写术图，在markdown中给出两个图片的URL；
-3. 用你的图片给`W02`中S191098026的老头赋予排序能力，得到排序结果（动画），上传动画到asciinema，在markdown中给出两个动画的链接。
-4. 联系另一位同学，用他的图片给`W02`中S191098026的老头赋予排序能力，在markdown中记录你用的谁的图片，得到结果是否正确。
+    本次作业使用的均为本地的绝对路径
+2. 选择排序
+    ![](https://raw.githubusercontent.com/jwork-2021/jw03-Direction-cy/main/S191098026.SelectSorter.png)
 
-https://raw.githubusercontent.com/jwork-2021/jw03-191220042/main/example.QuickSorter.png
+    归并排序
+    ![](https://raw.githubusercontent.com/jwork-2021/jw03-Direction-cy/main/S191098026.MergeSorter.png)
+
+3. 选择排序
+    [![asciicast](https://asciinema.org/a/fcsiUB6Pt2uyDy9BeCjLnkvlr.svg)](https://asciinema.org/a/fcsiUB6Pt2uyDy9BeCjLnkvlr)
+
+    归并排序
+    [![asciicast](https://asciinema.org/a/IDP4Fyrq48qACQeIJQKnzTmaT.svg)](https://asciinema.org/a/IDP4Fyrq48qACQeIJQKnzTmaT)
+
+4. 在众多仓库中选取了图片
+    ![](https://raw.githubusercontent.com/jwork-2021/jw03-191220042/main/example.QuickSorter.png)
+
+    结果如下
+    [![asciicast](https://asciinema.org/a/6RiiDPfVvMHctQPNyPoZ2mmLM.svg)](https://asciinema.org/a/6RiiDPfVvMHctQPNyPoZ2mmLM)
+
 
