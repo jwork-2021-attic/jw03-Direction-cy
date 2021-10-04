@@ -22,8 +22,13 @@ public class Scene {
         Geezer theGeezer = Geezer.getTheGeezer();
 
         SteganographyClassLoader loader = new SteganographyClassLoader(
-                new URL("https://raw.githubusercontent.com/jwork-2021/jw03-Direction-cy/main/S191098026.MergeSorter.png"));
+                //new URL("file:///d:/VSCode/jw03-Direction-cy/S191098026.BubbleSorter.png"));
+                //new URL("file:///d:/VSCode/jw03-Direction-cy/S191098026.SelectSorter.png"));
+                new URL("file:///d:/VSCode/jw03-Direction-cy/S191098026.MergeSorter.png"));
+                 
 
+        //Class c = loader.loadClass("S191098026.BubbleSorter");
+        //Class c = loader.loadClass("S191098026.SelectSorter");
         Class c = loader.loadClass("S191098026.MergeSorter");
 
         Sorter sorter = (Sorter) c.newInstance();

@@ -9,3 +9,5 @@
 3. 用你的图片给`W02`中S191098026的老头赋予排序能力，得到排序结果（动画），上传动画到asciinema，在markdown中给出两个动画的链接。
 4. 联系另一位同学，用他的图片给`W02`中S191098026的老头赋予排序能力，在markdown中记录你用的谁的图片，得到结果是否正确。
 
+https://raw.githubusercontent.com/jwork-2021/jw03-191220042/main/example.QuickSorter.png
+
