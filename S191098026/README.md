@@ -4,6 +4,7 @@
 
     本次作业使用的均为本地的绝对路径
 2. 选择排序
+
     ![](https://raw.githubusercontent.com/jwork-2021/jw03-Direction-cy/main/S191098026.SelectSorter.png)
 
     归并排序
@@ -16,6 +17,9 @@
     [![asciicast](https://asciinema.org/a/IDP4Fyrq48qACQeIJQKnzTmaT.svg)](https://asciinema.org/a/IDP4Fyrq48qACQeIJQKnzTmaT)
 
 4. 在众多仓库中选取了图片
+    快速排序
+    来自https://raw.githubusercontent.com/jwork-2021/jw03-191220042/main/example.QuickSorter.png
+
     ![](https://raw.githubusercontent.com/jwork-2021/jw03-191220042/main/example.QuickSorter.png)
 
     结果如下
