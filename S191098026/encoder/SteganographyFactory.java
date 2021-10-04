@@ -31,7 +31,7 @@ public class SteganographyFactory {
 
     public static void main(String[] args) throws IOException {
 
-        SteganographyFactory.getSteganography("S191098026/MergeSorter.java","S191098026/resources/merge.png");
+        SteganographyFactory.getSteganography("S191098026/SelectSorter.java","S191098026/resources/choose.png");
 
     }
 
